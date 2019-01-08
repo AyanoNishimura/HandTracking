@@ -64,6 +64,7 @@ public class RealSenseSamples : ModuleRules
             // Add Dynamic Libraries
             PublicDelayLoadDLLs.Add("opencv_world345.dll");
             PublicDelayLoadDLLs.Add("opencv_ffmpeg345_64.dll");
+
         }
 
         PublicDefinitions.Add(string.Format("WITH_OPENCV_BINDING={0}", islibrarySupported ? 1 : 0));
