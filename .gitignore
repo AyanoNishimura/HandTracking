@@ -1,0 +1,17 @@
+Binaries/
+Build/
+Intermediate/
+Saved/
+.vs/
+
+*.sdf
+*.sln
+*.suo
+*.opensdf
+*.VC.db
+*.opendb
+
+Plugins/RealSense/Binaries/
+Plugins/RealSense/Intermediate/
+Plugins/RuntimeMeshComponent/Binaries/
+Plugins/RuntimeMeshComponent/intermediate
